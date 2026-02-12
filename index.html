@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory - Saint-Valentin</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-heart"></i> Memory Saint-Valentin <i class="fas fa-heart"></i></h1>
+            <p class="subtitle">Trouve les paires de cartes amoureuses !</p>
+        </header>
+
+        <div class="game-info">
+            <div class="stats">
+                <div class="stat">
+                    <span class="stat-label">Coups :</span>
+                    <span id="moves" class="stat-value">0</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Paires :</span>
+                    <span id="pairs" class="stat-value">0 / 8</span>
+                </div>
+                <div class="stat">
+                    <span class="stat-label">Temps :</span>
+                    <span id="timer" class="stat-value">00:00</span>
+                </div>
+            </div>
+            
+            <div class="controls">
+                <button id="restart" class="btn"><i class="fas fa-redo"></i> Recommencer</button>
+                <button id="theme-toggle" class="btn"><i class="fas fa-moon"></i> Thème</button>
+            </div>
+        </div>
+
+        <div class="game-container">
+            <div id="memory-board" class="memory-board">
+                <!-- Les cartes seront générées par JavaScript -->
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3><i class="fas fa-info-circle"></i> Comment jouer</h3>
+            <p>Clique sur deux cartes pour les retourner. Si elles sont identiques, elles restent visibles. Sinon, elles se retournent à nouveau. Trouve toutes les paires le plus vite possible !</p>
+        </div>
+
+        <div class="message-container">
+            <div id="message" class="message"></div>
+        </div>
+
+        <footer>
+            <p>Jeu créé avec <i class="fas fa-heart heart-beat"></i> pour mon bb sasou d'amour</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
