@@ -270,14 +270,11 @@ function showRomanticMessage(time, moves) {
     if (time < temps_gagnant) {
         // Message pour les champions ❤️
         const loveMessages = [
-            'BRAVO MON AMOUR ! ❤️',
-            'T’ES LA MEILLEURE ! 🌹', 
-            '7 SECONDES POUR GAGNER MON CŒUR ! 💕',
-            'CHAMPIONNE DE MON CŒUR ! 🏆',
-            'WOW QUEL TALENT ! 💖',
-            'TROP FORTE ! ⚡',
-            'AMOUR ET VICTOIRE ! ✨',
-            'MON CŒUR FAIT DES BISOUS ! 💋'
+            "BRAVO CHACHA D'AMOUR ! ❤️",
+            "T’ES LA MEILLEURE ET LA PLUS BELLE ! 🌹", 
+            'TROP FORTE MON COEUR ! ⚡',
+            'AMOUR ET TAMTAM AMOUREUX ! ✨',
+            'LAPINOu FAIT DES BISOUS ! 💋'
         ];
         message = loveMessages[Math.floor(Math.random() * loveMessages.length)];
         emoji = '🏆❤️';
@@ -287,9 +284,8 @@ function showRomanticMessage(time, moves) {
         const tryMessages = [
             'ESSAIE ENCORE POUR MOI ! 💪',
             'PRESQUE ! ENCORE UN EFFORT ! 🌹',
-            'TU PEUX FAIRE MIEUX MON AMOUR ! ⏱️',
+            'TU PEUX FAIRE MIEUX MON BB ! ⏱️',
             'POUR UN BISOUS, FAIS MOINS DE 30s ! 😘',
-            'ALLEZ UNE PETITE FOIS ! ✨',
             'JE CROIS EN TOI ! ⭐',
             'PRESQUE PARFAIT ! 🌟',
             'ENCORE UN ESSAI ? 💝'
